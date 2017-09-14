@@ -29,3 +29,5 @@ I've been reading through Steve Ciarcia's _[Build Your Own Z80 Computer](https:/
 I spent a night or two scanning all of the schematics in _BYO Z80_ and getting an idea of the parts I'll be needing to get a basic setup running. I ordered a 6MHz CMOS Z80, 64k RAM, and a bunch of 74HC series ICs from Mouser. In my excitement, I also drove to Fry's the next day to pick up a few extra chips to play around with while waiting on the shipment, as well as a bigger breadboard and some solid wire. I've never worked with ICs before, so having some extras around can't hurt.
 
 Since I don't really know what I'm doing yet, I decided to wait to order a board until I knew I could fit everything on it. S100 prototype boards seem pretty expensive and hard to come by, and I'm not sure if a single 160x100mm eurocard will be big enough. For the next few weeks, I'll be testing each module out on a breadboard and moving them onto something more permanent once I know everything will work.
+
+![Box o' parts](/images/posts:2017-09-14/box_o_parts.jpg)
