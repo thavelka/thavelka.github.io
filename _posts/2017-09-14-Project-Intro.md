@@ -3,7 +3,11 @@ layout: post
 title: Project intro
 ---
 
-# 9/13/17 - First steps
+# 9/13/17 - Project Intro
+I make software. I like my job very much, and I'm good at it. I get paid to sit at home and code all day, which is exactly what I would be doing if I didn't have a job.
+
+Hardware is just _cooler_ though. Hardware hacking will always be cooler. Creating a beast and then taming it.
+
 I don't really know anything about computers, so I'm going to make one. This project will be serving as a sort of exploratory experience, and I'll be trying to stick to reading datasheets and probing around with meters rather than following any tutorials too closely. I will certainly be making a lot of mistakes along the way, so you probably shouldn't follow my steps either.
 
 ## Why Z80?
