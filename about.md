@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I make software. I like my job very much, and I'm good at it. I get paid to sit at home and code all day, which is exactly what I would be doing if I didn't have a job.
-
-Hardware is just _cooler_ though. Hardware hacking will always be cooler.
-
 I've been reading Stephen Levy's _Hackers_ over the past few weeks and just finished it up. The book provides in-depth views into the life and minds of the young nerds who would go on to shape the world of computer science. I was quite surprised to see that almost all of the great, early achievements were done with no real practical motivation; just kids making something cool and discussing it over chinese food. I like that. Funding from the Department of Defense and equipment from MIT resulting in a handful of programs that dance, sing, and play games. 
 
 Control. The best hacks are the ones that put you in control. Create the beast and then tame it. True power and mastery. 
