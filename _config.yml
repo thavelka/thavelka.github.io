@@ -54,6 +54,7 @@ baseurl: ""
 #
 
 permalink: /:title/
+excerpt_separator: "<!--break-->"
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -84,3 +85,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
