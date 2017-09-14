@@ -10,6 +10,7 @@ Hardware is just _cooler_ though. Hardware hacking will always be cooler. Creati
 
 I don't really know anything about computers, so I'm going to make one. This project will be serving as a sort of exploratory experience, and I'll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn't recommend following my steps too closely either.
 
+
 ## Why Z80?
 I don't know enough about any microprocessors to choose from an engineering standpoint. Some quick googling showed that I've unknowingly been interacting with Z80s my entire life through calculators, video games, and embedded systems everywhere. I like that. They're still used today, 40 years later. The name is cool. Good enough for me.
 
