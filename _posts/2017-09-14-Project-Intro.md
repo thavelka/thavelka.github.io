@@ -1,3 +1,8 @@
+---
+layout: post
+title: Project intro
+---
+
 # 9/13/17 - First steps
 I don't really know anything about computers, so I'm going to make one. This project will be serving as a sort of exploratory experience, and I'll be trying to stick to reading datasheets and probing around with meters rather than following any tutorials too closely. I will certainly be making a lot of mistakes along the way, so you probably shouldn't follow my steps either.
 
