@@ -13,9 +13,8 @@ have a job.
 
 Hardware is just cooler though. Hardware hacks will always be
 cooler. Nothing beats the feeling of making something you can see with
-your eyes and use with your hands. It's been a while since I've been able to take on a project where I
-get to leave my comfort zone and learn something completely new. I
-don't really know anything about computers, so I'm going to make one. This project will be serving as a sort of exploratory experience, and I'll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn't recommend following my steps too closely either.
+your eyes and use with your hands. It's been a while since I've been able to take on a project where I get to leave my comfort zone and learn something completely new. I
+don't really know anything about computers, so I'm going to make one. This project will be serving as a sort of exploratory experience, and I'll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn't recommend copying my steps too closely either, but feel free to follow along.
 <!--break-->
 
 ## Why Z80?
