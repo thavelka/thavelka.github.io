@@ -64,9 +64,9 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #272822;
   font: 18px/1.4 Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #f8f8f2;
 }
 
 .container {
@@ -78,7 +78,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
+  color: #f8f8f2;
   font-weight: bold;
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -107,7 +107,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #666;
+  color: #f8f8f2;
 }
 
 p {
@@ -115,12 +115,13 @@ p {
 }
 
 a {
-  color: #4183C4;
+  color: #a6e22e;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #4183C4;
+  color: #f92672;
+  text-decoration: underline;
 }
 
 ul, ol {
@@ -162,17 +163,17 @@ img {
 
 .date {
   font-style: italic;
-  color: #666;
+  color: #f4bf75;
 }
 
 ::-moz-selection {
-  color: #000;
-  background: #eee;
+  color: #f8f8f2;
+  background: #a1efe4;
 }
 
 ::selection {
-  color: #000;
-  background: #eee;
+  color: #f8f8f2;
+  background: #a1efe4;
 }
 
 .clearfix:before,
@@ -194,7 +195,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 0px solid #f8f8f2;
 }
 @media screen and (max-width: 640px) {
   .masthead {
@@ -232,8 +233,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: #333;
-  cursor: pointer;
+  color: #f8f8f2;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 28px;
@@ -242,8 +242,9 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #666;
+  color: #f4bf75;
   font-size: 16px;
+  font-style: italic;
 }
 @media screen and (max-width: 640px) {
   .site-description {
@@ -253,35 +254,42 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px;
+  margin-top: 32px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
+  font-style: bold;
 }
 @media screen and (max-width: 640px) {
   nav {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 nav a {
   margin-left: 20px;
-  color: #333;
+  color: #a6e22e;
   text-align: right;
-  font-weight: 300;
+  font-weight: 350;
+  font-style: italic;
   letter-spacing: 1px;
+}
+nav a:hover, nav a:active {
+  color: #f92672;
+  text-decoration: none;
+  letter-spacing: 5px;
 }
 @media screen and (max-width: 640px) {
   nav a {
     margin: 0 10px;
-    color: #4183C4;
+    color: #a6e22e;
   }
 }
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f8f8f2;
 }
 
 .posts > .post:last-child {
@@ -291,9 +299,9 @@ nav a {
 
 .post blockquote {
   margin: 1.8em .8em;
-  border-left: 2px solid #666;
+  border-left: 2px solid #75715e;
   padding: 0.1em 1em;
-  color: #666;
+  color: #f8f8f2;
   font-size: 22px;
   font-style: italic;
 }
@@ -307,9 +315,9 @@ nav a {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: #eee;
+  border-top: 1px solid #75715e;
+  border-bottom: 0px solid #ddd;
+  background-color: #272822;
 }
 
 footer {
