@@ -232,7 +232,7 @@ img {
 }
 
 .site-name {
-  margin: 0;
+  margin: 20px 0 0 0;
   color: #f8f8f2;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -241,6 +241,7 @@ img {
 }
 
 .site-description {
+  float: bottom;
   margin: -5px 0 0 0;
   color: #f4bf75;
   font-size: 16px;

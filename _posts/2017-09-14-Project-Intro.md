@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 9/13/17 - Project intro
+category: Z80
+tags: Z80 retrocomputing
 ---
 
 ![Box o' parts](/images/posts:2017-09-14/box_o_parts.jpg)
