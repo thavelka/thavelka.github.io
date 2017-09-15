@@ -71,7 +71,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1280px;
   padding: 0 10px;
   width: 100%;
 }
@@ -195,7 +195,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 0px solid #f8f8f2;
+  border-bottom: 1px solid #75715e;
 }
 @media screen and (max-width: 640px) {
   .masthead {
@@ -235,7 +235,6 @@ img {
   margin: 20px 0 0 0;
   color: #f8f8f2;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -275,11 +274,12 @@ nav a {
   font-weight: 350;
   font-style: italic;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 nav a:hover, nav a:active {
   color: #f92672;
-  text-decoration: none;
-  letter-spacing: 5px;
+  text-decoration: underline;
+  letter-spacing: 1px;
 }
 @media screen and (max-width: 640px) {
   nav a {
