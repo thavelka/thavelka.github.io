@@ -1,17 +1,21 @@
 ---
 layout: post
-title: 9/13/17 - Project intro
+title: 9/14/17 - Project Intro/First steps/Plans
 category: Z80
 tags: Z80 retrocomputing
 ---
 
 ![Box o' parts](/images/posts:2017-09-14/box_o_parts.jpg)
 
-I make software. I like my job very much, and I'm good at it. I get paid to sit at home and code all day, which is exactly what I would be doing if I didn't have a job.
+I make software. I like my job very much. I get paid to sit at home
+and code all day, which is exactly what I would be doing if I didn't
+have a job.
 
-Hardware is just _cooler_ though. Hardware hacking will always be cooler. Creating a beast and then taming it.
-
-I don't really know anything about computers, so I'm going to make one. This project will be serving as a sort of exploratory experience, and I'll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn't recommend following my steps too closely either.
+Hardware is just cooler though. Hardware hacks will always be
+cooler. Nothing beats the feeling of making something you can see with
+your eyes and use with your hands. It's been a while since I've been able to take on a project where I
+get to leave my comfort zone and learn something completely new. I
+don't really know anything about computers, so I'm going to make one. This project will be serving as a sort of exploratory experience, and I'll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn't recommend following my steps too closely either.
 <!--break-->
 
 ## Why Z80?
