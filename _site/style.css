@@ -71,7 +71,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1080px;
   padding: 0 10px;
   width: 100%;
 }
@@ -312,6 +312,9 @@ nav a:hover, nav a:active {
 .post .read-more {
   text-transform: uppercase;
   font-size: 15px;
+}
+.post img {
+  max-width: 720px;
 }
 
 .wrapper-footer {
