@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 9/14/17 - Project Intro/First steps/Plans
+title: 9/13/17 - Project Intro/First steps/Plans
 category: Z80
 tags: Z80 retrocomputing
 ---
 
-![Box o' parts](/images/posts:2017-09-14/box_o_parts.jpg)
+![Box o' parts](/images/posts/2017-09-13/box_o_parts.jpg)
 
 I make software. I like my job very much. I get paid to sit at home
 and code all day, which is exactly what I would be doing if I didn't
