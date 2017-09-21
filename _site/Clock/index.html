@@ -102,8 +102,8 @@ though. I tried hooking an LED up to the circuit’s output and
 connecting the cathode to ground, but I think this resulted in the LED
 emitting all the time due to the clocks 330 Ohm pullup to 5V. At the
 time, I hadn’t realized how IC logic worked outside of putting a high
-or low voltage signal on one side and recieving a high or low voltage
-signal on the other side. It took a day or two to discover that an LED
+or low voltage signal in on one side and recieving a high or low voltage
+signal out of the other side. It took a day or two to discover that an LED
 could reach ground through an ICs output when the output pin was in a
 low state. For now, I took the circuits apart, cleaned up, and called
 it a night.</p>
@@ -123,6 +123,11 @@ the switch and captured data from the device a few times and was able
 to see the input switching between high and low. Seems like everything
 had actually been working, but I just couldn’t see it before due to wiring
 errors.</p>
+
+<p>If you want to try the logic analyzer, you can find the Arduino sketch
+<a href="https://github.com/gillham/logic_analyzer">on Github here</a> and the
+LogicSniffer software <a href="https://www.lxtreme.nl/ols/">at the creator’s website
+here</a>.</p>
 
 <p>Feeling a little more confident and prepared, I watched Julian Ilett’s
 Z80 video again. He seemed to set everything up so quickly and easily,

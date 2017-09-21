@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-20T01:37:18-07:00</updated><id>http://localhost:4000/</id><title type="html">thavelka.github.io</title><subtitle>The problems of the past, today!</subtitle><entry><title type="html">9/15/17 - Gimme a beat</title><link href="http://localhost:4000/Clock/" rel="alternate" type="text/html" title="9/15/17 - Gimme a beat" /><published>2017-09-15T00:00:00-07:00</published><updated>2017-09-15T00:00:00-07:00</updated><id>http://localhost:4000/Clock</id><content type="html" xml:base="http://localhost:4000/Clock/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/full_clock_from_side.jpg&quot; alt=&quot;Final clock setup&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-20T21:11:14-07:00</updated><id>http://localhost:4000/</id><title type="html">thavelka.github.io</title><subtitle>The problems of the past, today!</subtitle><entry><title type="html">9/15/17 - Gimme a beat</title><link href="http://localhost:4000/Clock/" rel="alternate" type="text/html" title="9/15/17 - Gimme a beat" /><published>2017-09-15T00:00:00-07:00</published><updated>2017-09-15T00:00:00-07:00</updated><id>http://localhost:4000/Clock</id><content type="html" xml:base="http://localhost:4000/Clock/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/full_clock_from_side.jpg&quot; alt=&quot;Final clock setup&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My shipment from Mouser came in, and my desk is now covered in ICs,
 resistors, LEDs, and jumpers.&lt;/p&gt;
@@ -25,8 +25,8 @@ though. I tried hooking an LED up to the circuit’s output and
 connecting the cathode to ground, but I think this resulted in the LED
 emitting all the time due to the clocks 330 Ohm pullup to 5V. At the
 time, I hadn’t realized how IC logic worked outside of putting a high
-or low voltage signal on one side and recieving a high or low voltage
-signal on the other side. It took a day or two to discover that an LED
+or low voltage signal in on one side and recieving a high or low voltage
+signal out of the other side. It took a day or two to discover that an LED
 could reach ground through an ICs output when the output pin was in a
 low state. For now, I took the circuits apart, cleaned up, and called
 it a night.&lt;/p&gt;
@@ -46,6 +46,11 @@ the switch and captured data from the device a few times and was able
 to see the input switching between high and low. Seems like everything
 had actually been working, but I just couldn’t see it before due to wiring
 errors.&lt;/p&gt;
+
+&lt;p&gt;If you want to try the logic analyzer, you can find the Arduino sketch
+&lt;a href=&quot;https://github.com/gillham/logic_analyzer&quot;&gt;on Github here&lt;/a&gt; and the
+LogicSniffer software &lt;a href=&quot;https://www.lxtreme.nl/ols/&quot;&gt;at the creator’s website
+here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Feeling a little more confident and prepared, I watched Julian Ilett’s
 Z80 video again. He seemed to set everything up so quickly and easily,
