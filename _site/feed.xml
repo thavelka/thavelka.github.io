@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-20T21:11:14-07:00</updated><id>http://localhost:4000/</id><title type="html">thavelka.github.io</title><subtitle>The problems of the past, today!</subtitle><entry><title type="html">9/15/17 - Gimme a beat</title><link href="http://localhost:4000/Clock/" rel="alternate" type="text/html" title="9/15/17 - Gimme a beat" /><published>2017-09-15T00:00:00-07:00</published><updated>2017-09-15T00:00:00-07:00</updated><id>http://localhost:4000/Clock</id><content type="html" xml:base="http://localhost:4000/Clock/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/full_clock_from_side.jpg&quot; alt=&quot;Final clock setup&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-11T02:58:09-05:00</updated><id>http://localhost:4000/</id><title type="html">thavelka.github.io</title><subtitle>The problems of the past, today!</subtitle><entry><title type="html">9/15/17 - Mail time/Design thoughts</title><link href="http://localhost:4000/Mail-Time/" rel="alternate" type="text/html" title="9/15/17 - Mail time/Design thoughts" /><published>2017-09-15T00:00:00-05:00</published><updated>2017-09-15T00:00:00-05:00</updated><id>http://localhost:4000/Mail-Time</id><content type="html" xml:base="http://localhost:4000/Mail-Time/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/mail.jpg&quot; alt=&quot;Mail time&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My first shipments from Mouser and Amazon are in, and I should now
+have everything I need to make something interesting happen. Here’s
+what I’m working with:&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/mouser.jpg&quot; alt=&quot;Parts from Mouser&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/amazon.jpg&quot; alt=&quot;Parts from Amazon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Components from Mouser:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;6 MHz CMOS Z80 CPU&lt;/li&gt;
+  &lt;li&gt;64K (8k x 8) Static RAM&lt;/li&gt;
+  &lt;li&gt;2 MHz Crystal oscillator&lt;/li&gt;
+  &lt;li&gt;A few types of 74HCXX series logic ICs&lt;/li&gt;
+  &lt;li&gt;8 and 4 position DIP switch blocks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And some extra goods from Amazon to help with development:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3 Breadboards&lt;/li&gt;
+  &lt;li&gt;2 Veroboards&lt;/li&gt;
+  &lt;li&gt;A shitload of 3mm LEDs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I really cheaped out on the breadboards and LEDs, but I’m actually
+really impressed with the quality. The breadboards were “Elegoo”
+brand and only about $7.99 for a three pack. That’s less than the
+single breadboard cost me at Fry’s the other day. I was surprised to
+see that they came in some really high quality packaging, and the
+boards themselves were cleaner, whiter, and straighter than an altar
+boy. Hell, the American-made, $8 breadboard I just bought came in a
+plastic bag and looks like it’s made out of recycled milk jugs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/breadboards_packaged.jpg&quot; alt=&quot;Breadboard packaging&quot; /&gt;
+&lt;img src=&quot;/images/posts/2017-09-15/breadboards.jpg&quot; alt=&quot;Breadboards&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The LEDs came in white, blue, green, red, and yellow. The leads are
+sturdy, the lights are bright, and I’ve yet to have one fail. They
+even came in a convienient labeled box. I think I paid less than $15
+for 750 of them. LEDs at Fry’s were something like 25 for $5.00, which
+is a total rip.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/leds.jpg&quot; alt=&quot;LED box&quot; /&gt;
+&lt;img src=&quot;/images/posts/2017-09-15/leds_lit.jpg&quot; alt=&quot;LEDs lit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I had originally considered building the computer on a 160x100mm
+eurocard board, but I feared that would be much too small for a
+single-board computer after drawing it out on paper. I saw that Amazon
+had some larger Veroboard-branded stripboard available through Prime,
+and I thought that it might be better to try to use that first, then
+make some eurocard based multi-card computer system later. I’m glad I
+did, too. a 10”x5” piece of stripboard sounded massive after looking
+at 160x100mm eurocards all night, but I was surprised to see how small
+even 10”x5” looks in person. You can see the comparison in the picture
+below, with my small wireless mouse included for reference as
+well. There’s no way in hell I could fit everything on a single eurocard.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/board_sizes.jpg&quot; alt=&quot;Board sizes&quot; /&gt;
+&lt;img src=&quot;/images/posts/2017-09-15/veroboards.jpg&quot; alt=&quot;Veroboard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For now though, I’ll be building everything on breadboards while I
+design and experiment. I had no trouble attaching the new Elegoo
+breadboards to my other one. The four boards should give me plenty of
+room to work with while I’m getting started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/breadboards_connected.jpg&quot; alt=&quot;All breadboards&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that I can fit more than just a clock circuit on the board, I
+should be able to plug in the Z80 and get to work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">My first shipments from Mouser and Amazon are in, and I should now have everything I need to make something interesting happen. Here’s what I’m working with:</summary></entry><entry><title type="html">9/13/17 - Gimme a beat</title><link href="http://localhost:4000/Clock/" rel="alternate" type="text/html" title="9/13/17 - Gimme a beat" /><published>2017-09-13T00:00:00-05:00</published><updated>2017-09-13T00:00:00-05:00</updated><id>http://localhost:4000/Clock</id><content type="html" xml:base="http://localhost:4000/Clock/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/full_clock_from_side.jpg&quot; alt=&quot;Final clock setup&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My shipment from Mouser came in, and my desk is now covered in ICs,
 resistors, LEDs, and jumpers.&lt;/p&gt;
@@ -18,7 +92,7 @@ switch. I also set up the slow clock, made with a 7404, capacitor, and
 resistor, as pictured in the book. A 4-pin DIP switch block selected
 between the two clock circuits.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/book_clock.png&quot; alt=&quot;Clocks from book&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/book_clock.png&quot; alt=&quot;Clocks from book&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I had trouble testing and getting any validation from these circuits
 though. I tried hooking an LED up to the circuit’s output and
@@ -49,8 +123,7 @@ errors.&lt;/p&gt;
 
 &lt;p&gt;If you want to try the logic analyzer, you can find the Arduino sketch
 &lt;a href=&quot;https://github.com/gillham/logic_analyzer&quot;&gt;on Github here&lt;/a&gt; and the
-LogicSniffer software &lt;a href=&quot;https://www.lxtreme.nl/ols/&quot;&gt;at the creator’s website
-here&lt;/a&gt;.&lt;/p&gt;
+LogicSniffer software &lt;a href=&quot;https://www.lxtreme.nl/ols/&quot;&gt;at the creator’s website here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Feeling a little more confident and prepared, I watched Julian Ilett’s
 Z80 video again. He seemed to set everything up so quickly and easily,
@@ -68,7 +141,7 @@ running. The clock I bought was an all-in-one crystal oscillator
 circuit. All I had to do was hook up 5V and ground to have a perfect
 clock.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/full_clock.jpg&quot; alt=&quot;Test clock&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/full_clock.jpg&quot; alt=&quot;Test clock&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I ran both outputs through a 7404 before hooking up the LEDs so I
 could measure the real outputs, take some current off the ICs, and
@@ -77,9 +150,9 @@ looking great, but the oscillator’s LED stayed a dull green. That
 seemed like it might be correct though, due to the circuit toggling 2
 million times per second.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/testing_clock.jpg&quot; alt=&quot;Testing clock logic&quot; /&gt;
-&lt;img src=&quot;/images/posts/2017-09-15/screen_good_clock.png&quot; alt=&quot;Good clock&quot; /&gt;
-&lt;img src=&quot;/images/posts/2017-09-15/screen_555_calc.png&quot; alt=&quot;Calculator&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/testing_clock.jpg&quot; alt=&quot;Testing clock logic&quot; /&gt;
+&lt;img src=&quot;/images/posts/2017-09-13/screen_good_clock.png&quot; alt=&quot;Good clock&quot; /&gt;
+&lt;img src=&quot;/images/posts/2017-09-13/screen_555_calc.png&quot; alt=&quot;Calculator&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To be sure, I hooked both up to the Arduino’s digital pins and started
 up LogicSniffer. The captured data looked great! My 555’s wavelengths
@@ -91,7 +164,7 @@ to start with. Perhaps this is what the resistor tolerance is
 about. I’m using an 18k resistor in the 555, so if it’s 5-10% off, the
 actual frequency may be correct after all.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/screen_bad_clock.png&quot; alt=&quot;Bad clock&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/screen_bad_clock.png&quot; alt=&quot;Bad clock&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The analyzer started acting up after a few more captures, especially
 when I got the clock selector switch up in the mix. A consistant
@@ -105,7 +178,7 @@ was still there, so my clocks probably aren’t the issue. Even with the
 interference problem, I highly recommend LogicSniffer if you’re broke
 and clueless like me.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/work_area.jpg&quot; alt=&quot;Work area&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">My shipment from Mouser came in, and my desk is now covered in ICs, resistors, LEDs, and jumpers. Ciarcia’s book and other sources online start the building process off with the clock, so I did the same. This was my first time working with ICs, and the clock seemed like a simple and rewarding place to start. Flashing LEDs will can make anyone feel like they’ve made something cool.</summary></entry><entry><title type="html">9/14/17 - Power Up</title><link href="http://localhost:4000/Power-Up/" rel="alternate" type="text/html" title="9/14/17 - Power Up" /><published>2017-09-14T00:00:00-07:00</published><updated>2017-09-14T00:00:00-07:00</updated><id>http://localhost:4000/Power-Up</id><content type="html" xml:base="http://localhost:4000/Power-Up/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-14/new_power_cable.jpg&quot; alt=&quot;New cables&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/work_area.jpg&quot; alt=&quot;Work area&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">My shipment from Mouser came in, and my desk is now covered in ICs, resistors, LEDs, and jumpers. Ciarcia’s book and other sources online start the building process off with the clock, so I did the same. This was my first time working with ICs, and the clock seemed like a simple and rewarding place to start. Flashing LEDs will can make anyone feel like they’ve made something cool.</summary></entry><entry><title type="html">9/12/17 - Power Up</title><link href="http://localhost:4000/Power-Up/" rel="alternate" type="text/html" title="9/12/17 - Power Up" /><published>2017-09-12T00:00:00-05:00</published><updated>2017-09-12T00:00:00-05:00</updated><id>http://localhost:4000/Power-Up</id><content type="html" xml:base="http://localhost:4000/Power-Up/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-12/new_power_cable.jpg&quot; alt=&quot;New cables&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I picked up a bigger breadboard at Fry’s, along with a few logic chips to play
 around with while waiting for my shipment from Mouser to come in. When I got
@@ -131,7 +204,7 @@ this far in, so I stripped back some wire, cut up a breadboard jumper, and
 attempted to splice the two together. It actually ended up working, but got what
 an ugly cable.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-14/shitty_cable.jpg&quot; alt=&quot;shitty cable&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-12/shitty_cable.jpg&quot; alt=&quot;shitty cable&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I could not imagine this new piece of crap being nearly as reliable as the
 original cable, so I tried to see what else I could find. I came across the wall
@@ -146,7 +219,7 @@ breadboard. I also didn’t like having those two conductors right next to each
 other, soldered ono the header pins. I could see that shorting out at some
 point.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-14/better_cable.jpg&quot; alt=&quot;better cable&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-12/better_cable.jpg&quot; alt=&quot;better cable&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Anyway, fucking up those cables took long enough to where I didn’t get to mess
 with any of my new ICs that night, and so I just drove to Fry’s in the morning
@@ -156,7 +229,7 @@ I did come across something like my hacked-together USB cable thing, but done
 correctly. This cable has a male USB A connector on one end, and a DC barrel
 jack on the other. Nice! I think this cable was about $3.00.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-14/new_power_cable.jpg&quot; alt=&quot;new cables&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-12/new_power_cable.jpg&quot; alt=&quot;new cables&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I still needed a female connector to get the power to the board though. I
 couldn’t find any jacks that would fit on a PCB, but in that same prototyping
@@ -165,7 +238,7 @@ like you might see on a computer fan or sensor cable. I couldn’t find any fema
 JST connectors in the store, but I thought I could maybe fit two right-angle
 header pins in there and stick that in the breadboard.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-14/cable_tip.jpg&quot; alt=&quot;connector&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-12/cable_tip.jpg&quot; alt=&quot;connector&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This ended up working very well. The connection is loose, but that’s nothing
 some tape can’t fix for now. I finally have some reliable power from the
@@ -174,13 +247,13 @@ have gotten a 5V wall charger and a proper connector online for less than $5,
 but instant gratification is a bitch, and I lose all patience as soon as I get
 really excited about a project.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-14/loose_cable.jpg&quot; alt=&quot;fixed it&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-12/loose_cable.jpg&quot; alt=&quot;fixed it&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I think this should do the job while I’m prototyping on the breadboard, and I’ll
 be ordering a proper barrel jack to solder in when I move to PCB. If the USB
 cable in the phone charger isn’t providing enough current when the project is
 further along, I’ll get a male tip for the USB hub charger to get that 3A. Now
-that power is figured out, I can really get to work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">I picked up a bigger breadboard at Fry’s, along with a few logic chips to play around with while waiting for my shipment from Mouser to come in. When I got home and started setting things up, I realized that the only way to get 5V power to my breadboard was through jumpers from my Arduino’s 5V and Gnd pins, which isn’t going to work if this project is going anywhere. It was late and I was impatient, so I decided to improvise. I keep a giant bag of old phone chargers and USB cables stashed away just in case, and I rememebered that USB wall chargers put out 5V, even up to 2A sometimes. I said fuck it and got to work.</summary></entry><entry><title type="html">9/13/17 - Project Intro/First steps/Plans</title><link href="http://localhost:4000/Project-Intro/" rel="alternate" type="text/html" title="9/13/17 - Project Intro/First steps/Plans" /><published>2017-09-13T00:00:00-07:00</published><updated>2017-09-13T00:00:00-07:00</updated><id>http://localhost:4000/Project-Intro</id><content type="html" xml:base="http://localhost:4000/Project-Intro/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/box_o_parts.jpg&quot; alt=&quot;Box o' parts&quot; /&gt;&lt;/p&gt;
+that power is figured out, I can really get to work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">I picked up a bigger breadboard at Fry’s, along with a few logic chips to play around with while waiting for my shipment from Mouser to come in. When I got home and started setting things up, I realized that the only way to get 5V power to my breadboard was through jumpers from my Arduino’s 5V and Gnd pins, which isn’t going to work if this project is going anywhere. It was late and I was impatient, so I decided to improvise. I keep a giant bag of old phone chargers and USB cables stashed away just in case, and I rememebered that USB wall chargers put out 5V, even up to 2A sometimes. I said fuck it and got to work.</summary></entry><entry><title type="html">9/11/17 - Project Intro/First steps/Plans</title><link href="http://localhost:4000/Project-Intro/" rel="alternate" type="text/html" title="9/11/17 - Project Intro/First steps/Plans" /><published>2017-09-11T00:00:00-05:00</published><updated>2017-09-11T00:00:00-05:00</updated><id>http://localhost:4000/Project-Intro</id><content type="html" xml:base="http://localhost:4000/Project-Intro/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-11/box_o_parts.jpg&quot; alt=&quot;Box o' parts&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I make software. I like my job very much. I get paid to sit at home
 and code all day, which is exactly what I would be doing if I didn’t
@@ -188,26 +261,81 @@ have a job.&lt;/p&gt;
 
 &lt;p&gt;Hardware is just cooler though. Hardware hacks will always be
 cooler. Nothing beats the feeling of making something you can see with
-your eyes and use with your hands. It’s been a while since I’ve been able to take on a project where I get to leave my comfort zone and learn something completely new. I
-don’t really know anything about computers, so I’m going to make one. This project will be serving as a sort of exploratory experience, and I’ll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn’t recommend copying my steps too closely either, but feel free to follow along.
+your eyes and use with your hands. It’s been a while since I’ve been
+able to take on a project where I get to leave my comfort zone and
+learn something completely new. I don’t really know anything about
+computers, so I’m going to make one. This project will be serving as a
+sort of exploratory experience, and I’ll be trying to stick to reading
+datasheets and probing around with meters rather than following any
+guides and tutorials too closely. I will surely be making a lot of
+mistakes along the way, so I wouldn’t recommend copying my steps too
+closely either, but feel free to follow along.
 &lt;!--break--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;why-z80&quot;&gt;Why Z80?&lt;/h2&gt;
-&lt;p&gt;No good reason. I didn’t know enough to choose from an engineering standpoint, but some quick googling showed that I’ve unknowingly been interacting with Z80s my entire life through calculators, video games, and embedded systems everywhere. I like that. They’re still used today, 40 years later. The name is cool. Good enough for me.&lt;/p&gt;
+&lt;p&gt;No good reason. I didn’t know enough to choose from an engineering
+standpoint, but some quick googling showed that I’ve unknowingly been
+interacting with Z80s my entire life through calculators, video games,
+and embedded systems everywhere. I like that. They’re still used
+today, 40 years later. The name is cool. Good enough for me.&lt;/p&gt;
 
 &lt;h2 id=&quot;project-goals&quot;&gt;Project Goals&lt;/h2&gt;
-&lt;p&gt;I plan to let this project be a learning experience and nothing more, but we’ll see how that plays out. Hooking up a keyboard, tape drive, monitor, and modem would be very, very cool, but I’ll be thrilled if I can get a computer I built myself to turn on and listen to a few instructions that I toggle in with switches.&lt;/p&gt;
+&lt;p&gt;I plan to let this project be a learning experience and nothing more,
+but we’ll see how that plays out. Hooking up a keyboard, tape drive,
+monitor, and modem would be very, very cool, but I’ll be thrilled if I
+can get a computer I built myself to turn on and listen to a few
+instructions that I toggle in with switches.&lt;/p&gt;
 
-&lt;p&gt;I have seen a few homebrew builds with backplanes, custom bus patterns, and card-based hardware, and I like that very much. I think that my Z80 build will end up organized like that inside a nice enclosure eventually, but I think that would be biting off more than I can chew at the moment. I’ll be starting the project off as a single board computer. Getting the componenents to play nice together without worrying about bus and power issues will enough of a challenge for now.&lt;/p&gt;
+&lt;p&gt;I have seen a few homebrew builds with backplanes, custom bus
+patterns, and card-based hardware, and I like that very much. I think
+that my Z80 build will end up organized like that inside a nice
+enclosure eventually, but I think that would be biting off more than I
+can chew at the moment. I’ll be starting the project off as a single
+board computer. Getting the componenents to play nice together without
+worrying about bus and power issues will enough of a challenge for
+now.&lt;/p&gt;
 
-&lt;p&gt;I’d like to keep everything in the build simple and handmade. I’ll be using some newer test equipment while learning and debugging, but hopefully the end product will consist solely of hardware that would have been available in the 70s and 80s. I’m going to avoid buying any pre-fabricated boards or controllers, since that would really just be buying a slow, outdated computer for too much money. I’m also broke as shit.&lt;/p&gt;
+&lt;p&gt;I’d like to keep everything in the build simple and handmade. I’ll be
+using some newer test equipment while learning and debugging, but
+hopefully the end product will consist solely of hardware that would
+have been available in the 70s and 80s. I’m going to avoid buying any
+pre-fabricated boards or controllers, since that would really just be
+buying a slow, outdated computer for too much money. I’m also broke as
+shit.&lt;/p&gt;
 
 &lt;p&gt;I want the computer to have a name, too. I’ll be working on that.&lt;/p&gt;
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
-&lt;p&gt;I’ve been reading through Steve Ciarcia’s &lt;em&gt;&lt;a href=&quot;https://books.google.com/books?id=mVQnFgWzX0AC&amp;amp;lpg=PP1&amp;amp;pg=PP1#v=onepage&amp;amp;q&amp;amp;f=false&quot;&gt;Build Your Own Z80 Computer&lt;/a&gt;&lt;/em&gt; repeatedly for the past week, and it’s been a godsend. Ciarcia explains &lt;em&gt;why&lt;/em&gt; as much as he explains &lt;em&gt;how&lt;/em&gt;, so I don’t think I’ll have too much trouble adapting his plans into my own designs. Donn Stewart’s &lt;a href=&quot;http://cpuville.com&quot;&gt;CPUVille&lt;/a&gt; website has also been a source of inspiration. His schematics are simple and self-explanatory, and his expansion boards were all functioning prototypes on perfboard at some point, which shows that you don’t need printed circuits to make something functional. He’s even put out a guide for getting the Palo Alto Tiny BASIC from &lt;em&gt;Dr. Dobb’s&lt;/em&gt; working on the Z80. One of the most motivating resources I’ve found is &lt;a href=&quot;https://www.youtube.com/watch?v=AZb4NLXx1aM&quot;&gt;this video&lt;/a&gt; of Julian Ilett hooking up a minimal Z80 setup in a matter of minutes. No RAM, no ROM, and a 555 circuit as a clock. Shows that it’s possible to isolate components and take things one step at a time.&lt;/p&gt;
+&lt;p&gt;I’ve been reading through Steve Ciarcia’s &lt;em&gt;&lt;a href=&quot;https://books.google.com/books?id=mVQnFgWzX0AC&amp;amp;lpg=PP1&amp;amp;pg=PP1#v=onepage&amp;amp;q&amp;amp;f=false&quot;&gt;Build Your Own Z80 Computer&lt;/a&gt;&lt;/em&gt;
+repeatedly for the past week, and it’s been a godsend. Ciarcia
+explains &lt;em&gt;why&lt;/em&gt; as much as he explains &lt;em&gt;how&lt;/em&gt;, so I don’t think I’ll
+have too much trouble adapting his plans into my own designs. Donn
+Stewart’s &lt;a href=&quot;http://cpuville.com&quot;&gt;CPUVille&lt;/a&gt; website has also been a
+source of inspiration. His schematics are simple and self-explanatory,
+and his expansion boards were all functioning prototypes on perfboard
+at some point, which shows that you don’t need printed circuits to
+make something functional. He’s even put out a guide for getting the
+Palo Alto Tiny BASIC from &lt;em&gt;Dr. Dobb’s&lt;/em&gt; working on the Z80. One of the
+most motivating resources I’ve found is
+&lt;a href=&quot;https://www.youtube.com/watch?v=AZb4NLXx1aM&quot;&gt;this video&lt;/a&gt; of Julian Ilett
+hooking up a minimal Z80 setup in a matter of minutes. No RAM, no ROM,
+and a 555 circuit as a clock. Shows that it’s possible to isolate
+components and take things one step at a time.&lt;/p&gt;
 
 &lt;h2 id=&quot;components&quot;&gt;Components&lt;/h2&gt;
-&lt;p&gt;I spent a night or two scanning all of the schematics in &lt;em&gt;BYO Z80&lt;/em&gt; and getting an idea of the parts I’ll be needing to get a basic setup running. I ordered a 6MHz CMOS Z80, 64k RAM, and a bunch of 74HC series ICs from Mouser. In my excitement, I also drove to Fry’s the next day to pick up a few extra chips to play around with while waiting on the shipment, as well as a bigger breadboard and some solid wire. I’ve never worked with ICs before, so having some extras around can’t hurt.&lt;/p&gt;
+&lt;p&gt;I spent a night or two scanning all of the schematics in &lt;em&gt;BYO Z80&lt;/em&gt; and
+getting an idea of the parts I’ll be needing to get a basic setup
+running. I ordered a 6MHz CMOS Z80, 64k RAM, and a bunch of 74HC
+series ICs from Mouser. In my excitement, I also drove to Fry’s the
+next day to pick up a few extra chips to play around with while
+waiting on the shipment, as well as a bigger breadboard and some solid
+wire. I’ve never worked with ICs before, so having some extras around
+can’t hurt.&lt;/p&gt;
 
-&lt;p&gt;Since I don’t really know what I’m doing yet, I decided to wait to order a board until I knew I could fit everything on it. S100 prototype boards seem pretty expensive and hard to come by, and I’m not sure if a single 160x100mm eurocard will be big enough. For the next few weeks, I’ll be testing each module out on a breadboard and moving them onto something more permanent once I know everything will work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">I make software. I like my job very much. I get paid to sit at home and code all day, which is exactly what I would be doing if I didn’t have a job. Hardware is just cooler though. Hardware hacks will always be cooler. Nothing beats the feeling of making something you can see with your eyes and use with your hands. It’s been a while since I’ve been able to take on a project where I get to leave my comfort zone and learn something completely new. I don’t really know anything about computers, so I’m going to make one. This project will be serving as a sort of exploratory experience, and I’ll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn’t recommend copying my steps too closely either, but feel free to follow along.</summary></entry></feed>
+&lt;p&gt;Since I don’t really know what I’m doing yet, I decided to wait to
+order a board until I knew I could fit everything on it. S100
+prototype boards seem pretty expensive and hard to come by, and I’m
+not sure if a single 160x100mm eurocard will be big enough. For the
+next few weeks, I’ll be testing each module out on a breadboard and
+moving them onto something more permanent once I know everything will
+work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">I make software. I like my job very much. I get paid to sit at home and code all day, which is exactly what I would be doing if I didn’t have a job. Hardware is just cooler though. Hardware hacks will always be cooler. Nothing beats the feeling of making something you can see with your eyes and use with your hands. It’s been a while since I’ve been able to take on a project where I get to leave my comfort zone and learn something completely new. I don’t really know anything about computers, so I’m going to make one. This project will be serving as a sort of exploratory experience, and I’ll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn’t recommend copying my steps too closely either, but feel free to follow along.</summary></entry></feed>
