@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-13T22:46:02-05:00</updated><id>http://localhost:4000/</id><title type="html">thavelka.github.io</title><subtitle>The problems of the past, today!</subtitle><entry><title type="html">9/17/17 - Freerunning</title><link href="http://localhost:4000/Free-Run/" rel="alternate" type="text/html" title="9/17/17 - Freerunning" /><published>2017-09-17T00:00:00-05:00</published><updated>2017-09-17T00:00:00-05:00</updated><id>http://localhost:4000/Free-Run</id><content type="html" xml:base="http://localhost:4000/Free-Run/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-17/top_pic.jpg&quot; alt=&quot;Top pic&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-13T23:16:12-05:00</updated><id>http://localhost:4000/</id><title type="html">thavelka.github.io</title><subtitle>The problems of the past, today!</subtitle><entry><title type="html">9/17/17 - Freerunning</title><link href="http://localhost:4000/Free-Run/" rel="alternate" type="text/html" title="9/17/17 - Freerunning" /><published>2017-09-17T00:00:00-05:00</published><updated>2017-09-17T00:00:00-05:00</updated><id>http://localhost:4000/Free-Run</id><content type="html" xml:base="http://localhost:4000/Free-Run/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-17/top_pic.jpg&quot; alt=&quot;Top pic&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Big progress: today I made EIGHT LEDs flash. That’s seven more than
 last time. I was able to plug the Z80 in, set up the address
@@ -39,14 +39,17 @@ dimmed and started counting up from zero. The eighth LED flickered
 rapidly as I had been told, meaning the dynamic memory refresh is
 working correctly.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-17/free_run.jpg&quot; alt=&quot;free run&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;video_container&quot;&gt;
+  &lt;video controls=&quot;controls&quot; allowfullscreen=&quot;true&quot; poster=&quot;/images/posts/2017-09-17/free_run.jpg&quot;&gt;
+    &lt;source src=&quot;/images/posts/2017-09-17/vid.MOV&quot; type=&quot;video/mp4&quot; /&gt;
+  &lt;/video&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Next up is the data bus. Should be similar enough, apart from the
 bidirectional wiring and messy pin order on the Z80 side.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">Big progress: today I made EIGHT LEDs flash. That’s seven more than last time. I was able to plug the Z80 in, set up the address bus, and free run the CPU. Feels good.</summary></entry><entry><title type="html">9/15/17 - Mail time/Design thoughts</title><link href="http://localhost:4000/Mail-Time/" rel="alternate" type="text/html" title="9/15/17 - Mail time/Design thoughts" /><published>2017-09-15T00:00:00-05:00</published><updated>2017-09-15T00:00:00-05:00</updated><id>http://localhost:4000/Mail-Time</id><content type="html" xml:base="http://localhost:4000/Mail-Time/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/mail.jpg&quot; alt=&quot;Mail time&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;My first shipments from Mouser and Amazon are in, and I should now
-have everything I need to make something interesting happen. Here’s
-what I’m working with:&lt;/p&gt;
+&lt;p&gt;Amazon order came in, and I think I’ve got everything I need to make
+something interesting happen. Here’s what I’m working with:&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -116,7 +119,7 @@ room to work with while I’m getting started.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-15/breadboards_connected.jpg&quot; alt=&quot;All breadboards&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now that I can fit more than just a clock circuit on the board, I
-should be able to plug in the Z80 and get to work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">My first shipments from Mouser and Amazon are in, and I should now have everything I need to make something interesting happen. Here’s what I’m working with:</summary></entry><entry><title type="html">9/13/17 - Gimme a beat</title><link href="http://localhost:4000/Clock/" rel="alternate" type="text/html" title="9/13/17 - Gimme a beat" /><published>2017-09-13T00:00:00-05:00</published><updated>2017-09-13T00:00:00-05:00</updated><id>http://localhost:4000/Clock</id><content type="html" xml:base="http://localhost:4000/Clock/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/full_clock_from_side.jpg&quot; alt=&quot;Final clock setup&quot; /&gt;&lt;/p&gt;
+should be able to plug in the Z80 and get to work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">Amazon order came in, and I think I’ve got everything I need to make something interesting happen. Here’s what I’m working with:</summary></entry><entry><title type="html">9/13/17 - Gimme a beat</title><link href="http://localhost:4000/Clock/" rel="alternate" type="text/html" title="9/13/17 - Gimme a beat" /><published>2017-09-13T00:00:00-05:00</published><updated>2017-09-13T00:00:00-05:00</updated><id>http://localhost:4000/Clock</id><content type="html" xml:base="http://localhost:4000/Clock/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-13/full_clock_from_side.jpg&quot; alt=&quot;Final clock setup&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My shipment from Mouser came in, and my desk is now covered in ICs,
 resistors, LEDs, and jumpers.&lt;/p&gt;
@@ -245,7 +248,7 @@ stuck in my feet later. It seems that the cable was shielded pretty well. The
 power conductors ended up being very, very thin, and mostly consisted of some
 synthetic fibers inside the insulation, perhaps for strain relief. I was already
 this far in, so I stripped back some wire, cut up a breadboard jumper, and
-attempted to splice the two together. It actually ended up working, but got what
+attempted to splice the two together. It actually ended up working, but god what
 an ugly cable.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-12/shitty_cable.jpg&quot; alt=&quot;shitty cable&quot; /&gt;&lt;/p&gt;
@@ -293,11 +296,11 @@ really excited about a project.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-12/loose_cable.jpg&quot; alt=&quot;fixed it&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I think this should do the job while I’m prototyping on the breadboard, and I’ll
-be ordering a proper barrel jack to solder in when I move to PCB. If the USB
-cable in the phone charger isn’t providing enough current when the project is
-further along, I’ll get a male tip for the USB hub charger to get that 3A. Now
-that power is figured out, I can really get to work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">I picked up a bigger breadboard at Fry’s, along with a few logic chips to play around with while waiting for my shipment from Mouser to come in. When I got home and started setting things up, I realized that the only way to get 5V power to my breadboard was through jumpers from my Arduino’s 5V and Gnd pins, which isn’t going to work if this project is going anywhere. It was late and I was impatient, so I decided to improvise. I keep a giant bag of old phone chargers and USB cables stashed away just in case, and I rememebered that USB wall chargers put out 5V, even up to 2A sometimes. I said fuck it and got to work.</summary></entry><entry><title type="html">9/11/17 - Project Intro/First steps/Plans</title><link href="http://localhost:4000/Project-Intro/" rel="alternate" type="text/html" title="9/11/17 - Project Intro/First steps/Plans" /><published>2017-09-11T00:00:00-05:00</published><updated>2017-09-11T00:00:00-05:00</updated><id>http://localhost:4000/Project-Intro</id><content type="html" xml:base="http://localhost:4000/Project-Intro/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-11/box_o_parts.jpg&quot; alt=&quot;Box o' parts&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I think this should do the job while I’m prototyping on the
+breadboard, and I’ll be ordering a proper barrel jack to solder in
+when I move to PCB. If the USB cable in the phone charger isn’t
+providing enough current when the project is further along, I’ll get a
+male tip for the USB hub charger to get that sweet 3A.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">I picked up a bigger breadboard at Fry’s, along with a few logic chips to play around with while waiting for my shipment from Mouser to come in. When I got home and started setting things up, I realized that the only way to get 5V power to my breadboard was through jumpers from my Arduino’s 5V and Gnd pins, which isn’t going to work if this project is going anywhere. It was late and I was impatient, so I decided to improvise. I keep a giant bag of old phone chargers and USB cables stashed away just in case, and I rememebered that USB wall chargers put out 5V, even up to 2A sometimes. I said fuck it and got to work.</summary></entry><entry><title type="html">9/11/17 - Project Intro/First steps/Plans</title><link href="http://localhost:4000/Project-Intro/" rel="alternate" type="text/html" title="9/11/17 - Project Intro/First steps/Plans" /><published>2017-09-11T00:00:00-05:00</published><updated>2017-09-11T00:00:00-05:00</updated><id>http://localhost:4000/Project-Intro</id><content type="html" xml:base="http://localhost:4000/Project-Intro/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-11/box_o_parts.jpg&quot; alt=&quot;Box o' parts&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I make software. I like my job very much. I get paid to sit at home
 and code all day, which is exactly what I would be doing if I didn’t
@@ -306,14 +309,14 @@ have a job.&lt;/p&gt;
 &lt;p&gt;Hardware is just cooler though. Hardware hacks will always be
 cooler. Nothing beats the feeling of making something you can see with
 your eyes and use with your hands. It’s been a while since I’ve been
-able to take on a project where I get to leave my comfort zone and
-learn something completely new. I don’t really know anything about
-computers, so I’m going to make one. This project will be serving as a
-sort of exploratory experience, and I’ll be trying to stick to reading
-datasheets and probing around with meters rather than following any
-guides and tutorials too closely. I will surely be making a lot of
-mistakes along the way, so I wouldn’t recommend copying my steps too
-closely either, but feel free to follow along.
+able to take on a project where I get to try something completely
+new. I don’t really know anything about the hardware behind computers,
+so I’m going to make one. This project will be serving as an
+exploratory experience of sorts; I’ll try to keep to reading data
+sheets and probing around with meters instead of following any guides
+and tutorials too closely. I will surely be making a lot of mistakes
+along the way, so I wouldn’t recommend copying my steps too closely
+either, but feel free to follow along.
 &lt;!--break--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;why-z80&quot;&gt;Why Z80?&lt;/h2&gt;
@@ -382,4 +385,4 @@ prototype boards seem pretty expensive and hard to come by, and I’m
 not sure if a single 160x100mm eurocard will be big enough. For the
 next few weeks, I’ll be testing each module out on a breadboard and
 moving them onto something more permanent once I know everything will
-work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">I make software. I like my job very much. I get paid to sit at home and code all day, which is exactly what I would be doing if I didn’t have a job. Hardware is just cooler though. Hardware hacks will always be cooler. Nothing beats the feeling of making something you can see with your eyes and use with your hands. It’s been a while since I’ve been able to take on a project where I get to leave my comfort zone and learn something completely new. I don’t really know anything about computers, so I’m going to make one. This project will be serving as a sort of exploratory experience, and I’ll be trying to stick to reading datasheets and probing around with meters rather than following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn’t recommend copying my steps too closely either, but feel free to follow along.</summary></entry></feed>
+work.&lt;/p&gt;</content><author><name></name></author><category term="Z80" /><category term="Z80" /><category term="retrocomputing" /><summary type="html">I make software. I like my job very much. I get paid to sit at home and code all day, which is exactly what I would be doing if I didn’t have a job. Hardware is just cooler though. Hardware hacks will always be cooler. Nothing beats the feeling of making something you can see with your eyes and use with your hands. It’s been a while since I’ve been able to take on a project where I get to try something completely new. I don’t really know anything about the hardware behind computers, so I’m going to make one. This project will be serving as an exploratory experience of sorts; I’ll try to keep to reading data sheets and probing around with meters instead of following any guides and tutorials too closely. I will surely be making a lot of mistakes along the way, so I wouldn’t recommend copying my steps too closely either, but feel free to follow along.</summary></entry></feed>

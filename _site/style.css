@@ -317,6 +317,10 @@ nav a:hover, nav a:active {
   width: 100%;
   max-width: 720px;
 }
+.post video {
+  width: 100%;
+  max-width: 720px;
+}
 
 .wrapper-footer {
   margin-top: 50px;
