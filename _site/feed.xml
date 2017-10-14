@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-13T23:23:48-05:00</updated><id>http://localhost:4000/</id><title type="html">thavelka.github.io</title><subtitle>The problems of the past, today!</subtitle><entry><title type="html">9/17/17 - Freerunning</title><link href="http://localhost:4000/Free-Run/" rel="alternate" type="text/html" title="9/17/17 - Freerunning" /><published>2017-09-17T00:00:00-05:00</published><updated>2017-09-17T00:00:00-05:00</updated><id>http://localhost:4000/Free-Run</id><content type="html" xml:base="http://localhost:4000/Free-Run/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-17/top_pic.jpg&quot; alt=&quot;Top pic&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-13T23:29:11-05:00</updated><id>http://localhost:4000/</id><title type="html">thavelka.github.io</title><subtitle>The problems of the past, today!</subtitle><entry><title type="html">9/17/17 - Freerunning</title><link href="http://localhost:4000/Free-Run/" rel="alternate" type="text/html" title="9/17/17 - Freerunning" /><published>2017-09-17T00:00:00-05:00</published><updated>2017-09-17T00:00:00-05:00</updated><id>http://localhost:4000/Free-Run</id><content type="html" xml:base="http://localhost:4000/Free-Run/">&lt;p&gt;&lt;img src=&quot;/images/posts/2017-09-17/top_pic.jpg&quot; alt=&quot;Top pic&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Big progress: today I made EIGHT LEDs flash. That’s seven more than
 last time. I was able to plug the Z80 in, set up the address
@@ -39,8 +39,8 @@ dimmed and started counting up from zero. The eighth LED flickered
 rapidly as I had been told, meaning the dynamic memory refresh is
 working correctly.&lt;/p&gt;
 
-&lt;div class=&quot;video_container&quot; width=&quot;720px&quot;&gt;
-  &lt;video controls=&quot;controls&quot; allowfullscreen=&quot;true&quot; width=&quot;720px&quot; poster=&quot;/images/posts/2017-09-17/free_run.jpg&quot;&gt;
+&lt;div class=&quot;video_container&quot;&gt;
+  &lt;video controls=&quot;controls&quot; allowfullscreen=&quot;true&quot; width=&quot;640&quot; height=&quot;360&quot; poster=&quot;/images/posts/2017-09-17/free_run.jpg&quot;&gt;
     &lt;source src=&quot;/images/posts/2017-09-17/vid.MOV&quot; type=&quot;video/mp4&quot; /&gt;
   &lt;/video&gt;
 &lt;/div&gt;
