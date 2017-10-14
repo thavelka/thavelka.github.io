@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9/17/17 - Freerunning – ティム・ハベルカーŠKODA – The problems of the past, today!</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="
+
+Big progress: today I made EIGHT LEDs flash. That’s seven more than
+last time. I was able to plug the Z80 in, set up the address
+bus, and free run the CPU. Feels good.
+
+" />
+    <meta property="og:description" content="
+
+Big progress: today I made EIGHT LEDs flash. That’s seven more than
+last time. I was able to plug the Z80 in, set up the address
+bus, and free run the CPU. Feels good.
+
+" />
+    
+    <meta name="author" content="ティム・ハベルカーŠKODA" />
+
+    
+    <meta property="og:title" content="9/17/17 - Freerunning" />
+    <meta property="twitter:title" content="9/17/17 - Freerunning" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="ティム・ハベルカーŠKODA - The problems of the past, today!" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="/images/header.jpg" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name">ティム・ハベルカーŠKODA</h1>
+            <p class="site-description">The problems of the past, today!</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a></b>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>9/17/17 - Freerunning</h1>
+
+  <div class="entry">
+    <p><img src="/images/posts/2017-09-17/top_pic.jpg" alt="Top pic" /></p>
+
+<p>Big progress: today I made EIGHT LEDs flash. That’s seven more than
+last time. I was able to plug the Z80 in, set up the address
+bus, and free run the CPU. Feels good.
+<!--break--></p>
+
+<p>In my first Mouser order, I had purchased a bunch of 74367 chips, hex
+bus drivers, which Ciarcia uses to buffer the busses in the book. I
+guess those lovely octal chips with data flow-through pinouts weren’t
+around when the book was written. Not only did I have to use an extra
+chip, but the wiring is a nightmare with the inputs and outputs all
+mixed in together. Fortunately, I had purchased some 74541 octal
+buffers to use elsewhere that worked perfectly for the address
+bus. Way, way cleaner. I wish I had taken a picture with the hex
+chips. There are so many 74-series chips out there; it’s hard to know
+what you’re missing out on. I’m already getting better at digesting
+the data sheets though.</p>
+
+<p>Ciarcia’s address bus diagram:</p>
+
+<p><img src="/images/posts/2017-09-17/diagram.png" alt="diagram" /></p>
+
+<p>Final address bus wiring:</p>
+
+<p><img src="/images/posts/2017-09-17/closeup.jpg" alt="address bus" /></p>
+
+<p>The difference between flow-through pinouts and mixed input/outputs:</p>
+
+<p><img src="/images/posts/2017-09-17/messy_bus.jpg" alt="messy bus" /></p>
+
+<p>Now that I could monitor the bus, it was time to test out the Z80. I
+hooked up VCC and GND, tied all data lines low to simulate a no-op,
+tied WAIT, INT, NMI, and BUSRQ high, then wrote a tiny Arduino sketch
+to take the place of the reset and clock circuits. I hooked LEDs up to
+the lower 8 bits of the address bus, then flipped the
+switch. Everything works! The lights all turned on for a second, then
+dimmed and started counting up from zero. The eighth LED flickered
+rapidly as I had been told, meaning the dynamic memory refresh is
+working correctly.</p>
+
+<p><img src="/images/posts/2017-09-17/free_run.jpg" alt="free run" /></p>
+
+<p>Next up is the data bus. Should be similar enough, apart from the
+bidirectional wiring and messy pin order on the Z80 side.</p>
+
+  </div>
+
+  <div class="date">
+    Written on September 17, 2017
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:tim.havelka@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/thavelka"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+
+
+
+
+          <br><font size="1" color="f92672">2006 for life</font>
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
